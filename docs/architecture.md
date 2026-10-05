@@ -1,12 +1,12 @@
 # PRMI — Interface modular prevista
 
-Síntese do projeto conceitual registrado no Notion em 04/04/2026. As escolhas abaixo são propostas de design, sem validação física publicada.
+As interfaces abaixo são propostas de projeto; a implementação e a validação física estão pendentes.
 
 ## Base e módulo inicial
 
-A base R/C combina tração e bateria central. O módulo inicial previsto é uma garra com servos, fixada em uma interface comum e alimentada pela base. Os canais auxiliares do receptor comandariam um Arduino Nano ou ESP32, que acionaria o módulo.
+A base R/C prevista combina tração e bateria central. O módulo inicial previsto é uma garra com servos, fixada em uma interface comum e alimentada pela base. Os canais auxiliares do receptor comandariam um Arduino Nano ou ESP32, que acionaria o módulo.
 
-O protótipo inicial é teleoperado. ROS, LIDAR, navegação autônoma, coordenação de frota e retorno de energia à rede são possibilidades futuras, fora do MVP.
+O primeiro MVP previsto é teleoperado. Navegação autônoma e coordenação de frota ficam fora desse escopo.
 
 ## Interface mecânica
 
@@ -36,6 +36,6 @@ A identificação automática por resistor é uma extensão proposta, ainda não
 
 ## Evidências necessárias
 
-O primeiro conjunto de resultados deve registrar tensão sob carga, reinicializações, aquecimento e falhas da interface. Depois, avaliar autonomia e tempo de troca em condições documentadas.
+O primeiro conjunto de resultados deve registrar tensão sob carga, reinicializações, aquecimento e falhas da interface. Depois, avaliar autonomia da bateria e tempo de troca em condições documentadas.
 
 As metas descritas no planejamento são objetivos de ensaio, não resultados obtidos.

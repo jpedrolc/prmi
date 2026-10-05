@@ -1,6 +1,6 @@
 # PRMI — Plataforma Robótica Modular Integrada
 
-Projeto conceitual de uma plataforma móvel elétrica em escala reduzida, com módulos intercambiáveis alimentados pela bateria central. O primeiro MVP proposto é **teleoperado por rádio controle**, com um módulo de garra.
+Projeto conceitual de uma plataforma móvel elétrica em escala reduzida, com módulos intercambiáveis alimentados pela bateria central. O primeiro MVP proposto é **teleoperado por radiocontrole**, com um módulo de garra.
 
 **Status: 🟡 Pesquisa e projeto conceitual — implementação e validação física pendentes.**
 
@@ -47,7 +47,7 @@ Os modelos definitivos e o dimensionamento elétrico ainda precisam ser definido
 
 **Ainda pendente:** aquisição e adaptação do chassi, dimensionamento energético, CAD da interface, circuito, firmware, montagem e ensaios.
 
-O Notion registra uma proposta aguardando submissão ao programa de IC da UFMT. Não há confirmação de aprovação ou execução dessa IC. Este repositório não publica código, CAD ou resultados experimentais.
+Ainda não existe protótipo físico validado. Este repositório contém documentação conceitual; código, CAD e resultados experimentais ainda não estão disponíveis.
 
 O interesse técnico está na integração entre mecânica, distribuição de energia e controle, especialmente na definição de uma interface reutilizável. Navegação autônoma não faz parte do primeiro MVP.
 
@@ -56,7 +56,7 @@ O interesse técnico está na integração entre mecânica, distribuição de en
 1. Definir o chassi, a carga do módulo e o orçamento de corrente.
 2. Projetar fixação, contatos e proteção da interface.
 3. Validar alimentação e controle da garra em bancada.
-4. Integrar a base e medir tempo de troca, estabilidade elétrica e autonomia.
+4. Integrar a base e medir tempo de troca, estabilidade elétrica e autonomia da bateria.
 
 ## Documentação
 
